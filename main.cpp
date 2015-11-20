@@ -2,7 +2,7 @@
 using namespace std;
 
 int add(int,int);
-int subtract(int,int);
+int subtract(int num1,int num2);
 
 int main(){
 	
@@ -12,4 +12,8 @@ int main(){
 	return 0;
 	
 }
-
+ int substract(int num1, int num2)
+ {
+     return(num1 - num2);
+ }
+ 
