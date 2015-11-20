@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int add(int,int);
+int add(int a,int b);
 int subtract(int,int);
 
 int main(){
@@ -13,3 +13,8 @@ int main(){
 	
 }
 
+int add(int a, int b){
+    int sum;
+    sum = a + b;
+    return sum;
+}
